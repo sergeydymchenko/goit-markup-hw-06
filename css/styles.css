@@ -889,7 +889,7 @@ ul {
   font-family: 'Roboto', sans-serif;
   color: white;
 }
-.form-label {
+.form-label-footer {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
