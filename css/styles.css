@@ -417,6 +417,7 @@ ul {
 }
 .input-checkbox {
   position: absolute;
+
   left: 58px;
   top: 7px;
   overflow: hidden;
@@ -426,7 +427,7 @@ ul {
   width: 16px;
   height: 15px;
   background-color: white;
-  left: 54px;
+  left: -25px;
   top: 4px;
   outline: 1px solid black;
   transition-duration: 250ms;
@@ -435,9 +436,11 @@ ul {
 .input-checkbox {
   -webkit-appearance-: none;
   -moz-appearance: none;
-  appearance: none;
 }
-.input-checkbox:checked + .checkbox-svg {
+.input-checkbox:checked + .form-label-check {
+  color: #2196f3;
+}
+.input-checkbox:checked + .form-label-check .checkbox-svg {
   background-color: #2196f3;
   outline: 1px solid #2196f3;
 }
@@ -466,7 +469,7 @@ ul {
   letter-spacing: 0.06em;
 
   color: #ffffff;
-  margin-top: 30px;
+  margin-top: 50px;
 }
 .form-coment {
   font-family: 'Roboto', sans-serif;
